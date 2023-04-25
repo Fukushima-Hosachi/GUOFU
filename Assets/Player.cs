@@ -19,4 +19,9 @@ public class Player : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y);
     }
+
+    public void Movejump()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f);
+    }
 }

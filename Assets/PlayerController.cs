@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) _player.MoveUp();
         if (Input.GetKey(KeyCode.D)) _player.MoveRight();
         if (Input.GetKey(KeyCode.S)) _player.MoveDown();
+        if (Input.GetKey(KeyCode.Space)) _player.Movejump();
     }
     private void LateUpdate()
     {
